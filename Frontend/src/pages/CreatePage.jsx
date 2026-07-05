@@ -8,7 +8,8 @@ const CreatePage = () => {
   const [loading,setLoading] = useState(false)
 
   const handleSubmit = () => {
-
+    console.log(title)
+    console.log(content)
   }
   return (
     <div className='min-h-screen bg-base-200'>
